@@ -53,9 +53,9 @@ result_mp_s_root = int(math.pow(item_1, 0.5));
 print("result_mp_s_root =", result_mp_s_root);
 
 # 19. Присвоить переменной item_1 odd значение
-item_1 = int(4);
+item_1 = int(9);
 # 20. Присвоить переменной item_2 even значение
-item_2 = int(13);
+item_2 = int(4);
 
 # 21. Создать переменную result_division в которой вы разделите item_1 на item_2.
 result_division = item_1 / item_2;
@@ -77,9 +77,11 @@ print("result_m_ceil =", result_m_ceil);
 
 # 27. Создать переменную result_int и result_division округлить до ближайшего целого через явное приведение.
 result_int = round(result_division);
+result_int1 = int(result_division);
 
 # 28. Вывести result_int в консоль.
 print("result_int =", result_int)
+print("result_int1 =", result_int1)
 
 # 29. Создать переменную result_no_division_loss в которой вы разделите item_1 на item_2 без остатка.
 result_no_division_loss = item_1 // item_2;
@@ -121,24 +123,26 @@ item_3 /= 2;
 print("item_3 =", item_3);
 
 # 42. Возвести в степень 2 item_3 с присвоением.
-item_3_2 = item_3 ** 2;
+item_3 **= 2;
 
 # 43. Вывести item_3 в консоль.
-print("item_3_2 =", item_3_2);
+print("item_3 =", item_3);
+
 # 44. Найти квадратный корень item_3 с присвоением.
-sqrt_item_3 = math.sqrt(item_3);
+item_3 **= 0.5;
 
 # 45. Вывести item_3 в консоль.
-print("sqrt_item_3 =", sqrt_item_3);
+print("item_3 =", item_3);
 
 # 46. Присвоить остаток от деления item_3
-ostatok_item_3 = item_3 // 2;
+item_3 %= item_3;
 
 # 47. Вывести item_3 в консоль.
-print("ostatok_item_3 =", ostatok_item_3);
+print("item_3 =", item_3);
 
 #48. Создать переменную b_item_t и присвоить True
 b_item_t = True;
+
 # 49. Создать переменную b_item_f и присвоить False
 b_item_f = False;
 
