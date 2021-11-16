@@ -112,12 +112,14 @@ split_even_odd(lists)
 print("+++++++++++++++++++++++++++=")
 # 11 Написать скрипт который сгенерирует список под названием 5_stars
 # из списков по 5 элементов целых чисел.
-list_1 = [1, 2, 3, 4, 5]
-list_2 = [6, 7, 8, 9, 10]
-list_3 = [11, 12, 13, 14, 15]
-five_stars = list_1, list_2, list_3
+five_stars = []
+for it in range(30):
+    stars = random.sample(range(1, 30), 5)
+    five_stars.append(stars)
+print(five_stars)
 print("five_stars =", five_stars)
 
+print("+++++++++++++++++++++++++++=")
 # 12 Написать скрипт который выведет список из сумм каждого внутреннего списка из  5_stars
 # При этом используется комбинация zip и * для распаковки списка,
 # а затем архивирование элементов в соответствии с их индексом.
@@ -127,31 +129,29 @@ print("five_stars =", five_stars)
 sum_lists = [sum(k) for k in zip(*five_stars)]
 print("sum lists =", sum_lists)
 
-
-def foo():
-    # initialise length of data(n) and sum_of_col variable
-    n = len(five_stars)
-    print(n)
-    sum_of_col = []
-    # iterate over column
-    for col_i in range(n):
-        # column sum
-        col_count = 0;
-        # iterate over row
-        for row_i in range(n):
-            col_count += five_stars[row_i][col_i]
-        # append sum of column to list
-        sum_of_col.append(col_count)
-    return print("sum_of_col =", sum_of_col)
-
-
-foo()
-
+print("+++++++++++++++++++++++++++=")
 # 13 Написать функцию которая на вход получает список 5_stars,
 # а вернёт 2 списка. В одном списке внутренние списки из 5_stars
 # сумма чисел которых >= 100, а другой сумма чисел которых < 100.
 # Если какого-то списка не получится, то вместо него вернуть текст “No lists”
 
+
+def five_lists():
+    sum_more_100 = []
+    sum_less_100 = []
+    for l in sum_lists:
+        if l >= 100:
+            sum_more_100.append(l)
+        elif l < 100:
+            sum_less_100.append(l)
+        elif not sum_less_100:
+            print("No lists")
+    print("sum_more_100 lists:", sum_more_100)
+    print("sum_less_100:", sum_less_100)
+
+
+five_lists()
+print("+++++++++++++++++++++++++++=")
 # 14 Написать функцию которая получив на вход ваш возраст,
 # выведет вам через какой срок вы сумеете отложить
 # 10 000$, 20 000$, 30 000$, 50 000$, 100 000$ в кубышку.
