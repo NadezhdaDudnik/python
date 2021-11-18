@@ -7,6 +7,7 @@ file_csv = 'txt_lesson_7.csv'
 path = file_path + file_name;
 path_csv = file_path + file_csv;
 names_list = ['Alina', 'Denis', 'Vadim', 'Katya']
+name_age = [];
 
 with open(path, 'w') as txt_file:
     txt_file.write('\n'.join(names_list));
@@ -57,8 +58,21 @@ users_list = [
     ['julia', 18],
 ]
 
+new_user_lists =[]
+for item in range(0, 100):
+    for ul_item in users_list:
+        name_age = []
+        new_name = ul_item[0] + ' ' + str(item)
+        new_age = 10 + item;
+        name_age.append(new_name);
+        name_age.append(new_age);
+        #print(new_name, new_age)
+        new_user_lists.append(name_age)
+for ii in new_user_lists:
+    print(ii)
+
 with open(path_csv, 'w') as csv_file:
     writer = csv.writer(csv_file);
-    writer.writerows(users_list);
+    writer.writerows(new_user_lists);
 
 
