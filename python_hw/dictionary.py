@@ -1,6 +1,6 @@
 import json
 
-path = '/Users/a17787194/python/python/'
+path = '//'
 file_title = 'python_json_lesson.json'
 
 full_name =path + file_title

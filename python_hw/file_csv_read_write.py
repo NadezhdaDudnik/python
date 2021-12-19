@@ -1,5 +1,5 @@
 import csv
-file_path = '/Users/a17787194/python/python/'
+file_path = '//'
 file_csv = 'csv_lesson_8_header.csv'
 
 path_csv = file_path + file_csv;

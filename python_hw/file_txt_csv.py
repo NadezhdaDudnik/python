@@ -1,6 +1,6 @@
 import csv
 
-file_path = '/Users/a17787194/python/python/'
+file_path = '//'
 file_name = 'txt_lesson_7.txt'
 file_csv = 'txt_lesson_7.csv'
 
