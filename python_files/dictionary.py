@@ -1,7 +1,7 @@
 import json
 
 path = '//'
-file_title = 'python_json_lesson.json'
+file_title = '../python_hw/python_json_lesson.json'
 
 full_name =path + file_title
 dict_item = {}
