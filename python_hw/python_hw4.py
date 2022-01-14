@@ -56,6 +56,14 @@ while run:
         print("STOP", count);
         break
 
+while run:
+    print('Step =', count)
+    count += 1
+    if count == range_count:
+        break
+print('STOP', count)
+
+
 # Циклы For
 # Сделать цикл for c переменной item который будет работать
 # пока счётчик range досчитает от for_count  до range_count
@@ -116,9 +124,11 @@ for item in range(0, range_count + 1):
 # - В теле if поставить continue
 
 # 13.3 Выйти з if. Вывести в консоль (‘End_iteration =’, item)
+print("****")
 for item in range(0, 20):
     print('Step =', item);
-    if (item > 7) and (item < 12):
+    #if (item > 7) and (item < 12):
+    if 7 < item < 12:
         print('If_item =', item);
         continue;
 print('End_iteration =', item);

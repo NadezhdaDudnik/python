@@ -121,7 +121,7 @@ if currency_convertor:
     currency_usd = usd_item;
     #target_currency = eur_item;
     target_currency = input("Enter target_currency: ");
-    target_currency_amount = 20000;
+    target_currency_amount = 50;
     currency_result = 0;
     if target_currency == 'eur':
         currency_result = target_currency_amount / usd_eur_rate;

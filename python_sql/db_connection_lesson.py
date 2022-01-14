@@ -10,6 +10,17 @@ conn = psycopg2.connect(dbname='qa_ddldb_23_85',
 
 cursor = conn.cursor();
 
+#как узнать в таблице какие столбцы
+if conn:
+    print('Connection qa_ddldb_23_85 - ')
+    select_query_for_table = 'select * from public.employees;'
+    cursor.execute(select_query_for_table)
+    print(cursor.description[1][0])
+    column_names = [desc[0] for desc in cursor.description]
+    for i in column_names:
+        print(i)
+    conn.commit()
+
 if conn:
     print('Connection qa_ddldb_23_85')
     select_query = 'select * from public.employees;'
@@ -25,7 +36,7 @@ if conn:
 for i in range(0, 10):
     if conn:
         print('Connection Insert qa_ddldb_23_85 table employee_salary')
-        employee_id = str(160 + i);
+        employee_id = str(170 + i);
         salary_id = str(1 + i)
         insert_query = 'insert into public.employee_salary(employee_id, salary_id) ' \
                        'values(' + employee_id + ',' + salary_id + ');'
