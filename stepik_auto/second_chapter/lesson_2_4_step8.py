@@ -16,7 +16,6 @@ lakehouse_text = WebDriverWait(browser, 12).until(
     )
 #assert "$100" in lakehouse_text.text
 
-
 button_book = browser.find_element(By.ID, "book")
 button_book.click()
 

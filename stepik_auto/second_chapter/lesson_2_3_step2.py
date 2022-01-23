@@ -1,5 +1,6 @@
 from selenium.webdriver.chrome import webdriver
 
+
 link = ""
 def alert(param):
     pass
