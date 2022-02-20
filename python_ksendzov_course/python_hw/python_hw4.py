@@ -49,19 +49,19 @@ run = True;
 # 9.2 Переменной count прибавлять 1 с присвоением.
 # 9.2 Сделать if с условием, если count равен range_count то цикл остановится.
 # 9.3 В теле if вывести в консоль (“STOP”, count)
-while run:
-    print("Step =", count);
-    count += 1;
-    if count == range_count:
-        print("STOP", count);
-        break
-
-while run:
-    print('Step =', count)
-    count += 1
-    if count == range_count:
-        break
-print('STOP', count)
+# while run:
+#     print("Step =", count);
+#     count += 1;
+#     if count == range_count:
+#         print("STOP", count);
+#         break
+#
+# while run:
+#     print('Step =', count)
+#     count += 1
+#     if count == range_count:
+#         break
+# print('STOP', count)
 
 
 # Циклы For
@@ -132,3 +132,4 @@ for item in range(0, 20):
         print('If_item =', item);
         continue;
 print('End_iteration =', item);
+

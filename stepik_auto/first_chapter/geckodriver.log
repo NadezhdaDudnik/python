@@ -1,0 +1,18 @@
+1644755878688	geckodriver	INFO	Listening on 127.0.0.1:54933
+1644755879116	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54934" "-foreground" "-no-remote" "-profile" "/var/folders/sp/w9hz37792sv45r3x27tvgyvr0000gp/T/rust_mozprofileabGmji"
+2022-02-13 15:38:04.128 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSButton: 0x1213b6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.128 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSButton: 0x1286ec800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.129 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSButton: 0x1286eac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.129 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSButton: 0x1286eb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.130 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSButton: 0x1286ee400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.130 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1286ef000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 15:38:04.131 firefox-bin[6774:246726] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12876f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1644755885532	Marionette	INFO	Listening on port 54943
+1644755885592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.org/static/frontend-build/vendor.js?v=1644253148, line 6082: unreachable code after return statement
+JavaScript error: https://stepik.org/static/frontend-build/vendor.js?v=1644253148, line 5900: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1644755903274	Marionette	INFO	Stopped listening on port 54943
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

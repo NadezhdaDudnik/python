@@ -1,0 +1,17 @@
+1644757279454	geckodriver	INFO	Listening on 127.0.0.1:55128
+1644757279463	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55129" "-foreground" "-no-remote" "-profile" "/var/folders/sp/w9hz37792sv45r3x27tvgyvr0000gp/T/rust_mozprofilebfrtwB"
+2022-02-13 16:01:20.682 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSButton: 0x12b1e8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.683 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSButton: 0x12b24b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.683 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSButton: 0x12b24b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.684 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSButton: 0x12b24bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.684 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSButton: 0x12b248000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.685 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12b245000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-13 16:01:20.685 firefox-bin[7178:269454] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11ad2d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1644757281705	Marionette	INFO	Listening on port 55134
+1644757281751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1644757283082	Marionette	INFO	Stopped listening on port 55134
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
