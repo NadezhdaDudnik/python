@@ -1,6 +1,6 @@
 import csv
 
-file_path = '/Users/a17787194/python/python/python_ksendzov_course/python_files/text_files/'
+file_path = '/python/python/python_ksendzov_course/python_files/text_files/'
 text_file_title = 'text_1.txt'
 csv_file_title = 'csv_2.csv'
 file_title = file_path + csv_file_title
