@@ -1,8 +1,8 @@
 import csv
 
 file_path = '//'
-file_name = 'txt_lesson_7.txt'
-file_csv = 'txt_lesson_7.csv'
+file_name = 'text_files/txt_lesson_7.txt'
+file_csv = 'text_files/txt_lesson_7.csv'
 
 path = file_path + file_name;
 path_csv = file_path + file_csv;
